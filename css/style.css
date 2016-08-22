@@ -1848,7 +1848,7 @@ a[data-type='lightbox']:hover img {
 }
 
 .cont-beranda {
-  width: 400px;
+  min-height: 1000px;
   background: #f9f9f9;
   left: 0;
 }
@@ -1897,6 +1897,7 @@ a[data-type='lightbox']:hover img {
 
 .cont-beranda.black {
   background: #fff;
+  min-height: 1000px;
 }
 .cont-beranda.black .tit{
   background: #5d5d5d;
@@ -1918,6 +1919,7 @@ a[data-type='lightbox']:hover img {
 .linkwa {
   padding: 10px;
   background: #f9f9f9;
+  min-height: 1000px;
 }
 
 a.link.red {
