@@ -2056,32 +2056,48 @@ a.link:hover {
   padding-top: 10px;
   border-bottom: 1px solid #4a4a4a;
 }
-
-ol.vm li {
-  list-style: decimal;
-  margin-left: 20px;
-
+#footer .content a:hover {
+  color: #7ed6d3;
 }
 
-ol.tuj li {
-  list-style: decimal;
-  margin-left: 20px;
-
+#footer .galeri .gambar {
+  width: 100px;
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 5px;
 }
 
-.str img {
-  margin-top: 40px;
-max-width: 1000px;
-
+#footer .gambar img {
+  max-width: 100px;
 }
-
-.tlab table{
-  border: 1px solid red;
-  margin-left: 30px;
+#footer .kontak {
+  color: #ffffff;
 }
-.tlab table tr {
-  border: 1px solid red;
+#footer .kontak h3 {
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 600;
 }
-.tlab table tr td {
-  border: 1px solid red;
+#footer .kontak h4 {
+  font-size: 14px;
+  line-height: 1.5;
+}
+#footer .kontak h5 {
+  font-size: 12px;
+  margin-top: 20px;
+  font-weight: 400;
+}
+.medsos {
+  margin-top: 20px;
+}
+.medsos a{
+  font-size: 24px;
+  text-decoration: none;
+  color: #fff;
+  margin-right: 10px;
+  border: 1px solid #505050;
+  padding: 10px;
+}
+.medsos a:hover {
+  background: #129894;
 }
