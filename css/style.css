@@ -2056,3 +2056,32 @@ a.link:hover {
   padding-top: 10px;
   border-bottom: 1px solid #4a4a4a;
 }
+
+ol.vm li {
+  list-style: decimal;
+  margin-left: 20px;
+
+}
+
+ol.tuj li {
+  list-style: decimal;
+  margin-left: 20px;
+
+}
+
+.str img {
+  margin-top: 40px;
+max-width: 1000px;
+
+}
+
+.tlab table{
+  border: 1px solid red;
+  margin-left: 30px;
+}
+.tlab table tr {
+  border: 1px solid red;
+}
+.tlab table tr td {
+  border: 1px solid red;
+}
