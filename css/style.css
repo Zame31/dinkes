@@ -2101,3 +2101,15 @@ a.link:hover {
 .medsos a:hover {
   background: #129894;
 }
+.str img {
+  margin-top: 20px;
+  max-width: 1000px;
+}
+ol.tuj li {
+  list-style: decimal;
+  margin-left: 20px;
+}
+ol.vm li {
+  list-style: decimal;
+  margin-left: 20px;
+}
