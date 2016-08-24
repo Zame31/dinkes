@@ -1396,7 +1396,8 @@ img {
     padding-top: 50px;
 }
 .wrap_18 {
-    padding-top: 117px;
+    padding-top: 10px;
+
 }
 .wrap_19 {
     padding-bottom: 115px;
@@ -2112,4 +2113,42 @@ ol.tuj li {
 ol.vm li {
   list-style: decimal;
   margin-left: 20px;
+}
+
+ol.sej li {
+  list-style:circle;
+  margin-left: 20px;
+}
+
+.covdinkes img {
+  margin-top: 20px;
+  max-width: 1000px;
+  margin-left: 200px;
+  margin-bottom: 20px;
+}
+
+.ket_sej {
+  font-size: 16px;
+  width: 900px;
+
+}
+
+i.fai {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.tes {
+    font-size: 30px;
+    background: #1abc9c;
+    color: #fff;
+    padding: 10px 30px;
+}
+
+.tes1 {
+    font-size: 30px;
+    background: #3498db;
+    color: #fff;
+    padding: 10px 30px;
 }
