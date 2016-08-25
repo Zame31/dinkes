@@ -13,17 +13,27 @@
                   </div>
                   <nav class="nav put-right">
                       <ul class="sf-menu">
-                          <li class="current"><a href="<?php echo site_url('page/beranda'); ?>">Beranda</a></li>
 
-                          <li>
+                          <li class="<?php if($this->uri->uri_string() == 'page/beranda') { echo 'current'; } ?>"><a href="<?php echo site_url('page/beranda'); ?>">Beranda</a></li>
+
+                          <li class="<?php if($this->uri->uri_string() == ('page/visi') ||
+                                                          uri_string() == ('page/sejarah') ||
+                                                          uri_string() == ('page/struktur') ||
+                                                          uri_string() == ('page/tugas') ) { echo 'current'; } ?>">
                               <a href="#">Tentang Kami</a>
                               <ul>
-                                <li><a href="<?php echo site_url('page/visi'); ?>">Visi dan Misi</a></li>
-                              <li><a href="<?php echo site_url('page/sejarah'); ?>">Sejarah Dinas Kesehatan Kota Bandung</a>
-                              <li><a href="<?php echo site_url('page/struktur'); ?>">Struktur Organisasi</a>
-                              <li><a href="<?php echo site_url('page/tugas'); ?>">Tugas pokok dan fungsi</a>
-
-                                  </li>
+                                <li class="<?php if($this->uri->uri_string() == 'page/visi') { echo 'current'; } ?>">
+                                  <a href="<?php echo site_url('page/visi'); ?>">Visi dan Misi</a>
+                                </li>
+                                <li class="<?php if($this->uri->uri_string() == 'page/sejarah') { echo 'current'; } ?>">
+                                  <a href="<?php echo site_url('page/sejarah'); ?>">Sejarah Dinas Kesehatan Kota Bandung</a>
+                                </li>
+                                <li class="<?php if($this->uri->uri_string() == 'page/struktur') { echo 'current'; } ?>">
+                                  <a href="<?php echo site_url('page/struktur'); ?>">Struktur Organisasi</a>
+                                </li>
+                                <li class="<?php if($this->uri->uri_string() == 'page/tugas') { echo 'current'; } ?>">
+                                  <a href="<?php echo site_url('page/tugas'); ?>">Tugas pokok dan fungsi</a>
+                                </li>
                               </ul>
                           </li>
                           <li><a href="#">Informasi Publik</a></li>
