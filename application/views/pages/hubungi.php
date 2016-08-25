@@ -1,7 +1,7 @@
 <!--========================================================
                             CONTENT
   =========================================================-->
-  <section id="content"><div class="ic">
+  <section id="content">
 
       <div class="bg_1 wrap_17 wrap_19">
           <div class="container">

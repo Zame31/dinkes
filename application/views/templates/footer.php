@@ -69,8 +69,33 @@
   <script src="<?php echo base_url() ?>assets/js/jquery.cookie.js"></script>
   <script src="<?php echo base_url() ?>assets/js/device.min.js"></script>
   <script src="<?php echo base_url() ?>assets/js/tmstickup.js"></script>
+  <script type="text/javascript">
+    $(window).load(function () {
+        if ($('html').hasClass('desktop')) {
+            $('#stuck_container').TMStickUp({
+            })
+        }
+    });
+  </script>
   <script src="<?php echo base_url() ?>assets/js/js/jquery.easing.1.3.js"></script>
   <script src="<?php echo base_url() ?>assets/js/jquery.ui.totop.js"></script>
+  <script type="text/javascript">
+    $(function () {
+        $().UItoTop({ easingType: 'easeOutQuart' });
+    });
+  </script>
+  <script src="<?php echo base_url() ?>assets/js/mousewheel.min.js"></script>
+  <script src="<?php echo base_url() ?>assets/js/jquery.simplr.smoothscroll.min.js"></script>
+  <script type="text/javascript">
+  $(function () {
+      if ($('html').hasClass('desktop')) {
+          $.srSmoothscroll({
+              step: 150,
+              speed: 100
+          });
+      }
+  });
+  </script>
   <script src="<?php echo base_url() ?>assets/js/superfish.js"></script>
   <script src="<?php echo base_url() ?>assets/js/jquery.mobilemenu.js"></script>
   <script src="<?php echo base_url() ?>assets/js/jquery.unveil.js"></script>
