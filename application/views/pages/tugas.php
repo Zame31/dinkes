@@ -7,17 +7,15 @@
         <h2 class="header_2 indent_1">Tugas Pokok dan Fungsi</h2>
         <div class="grid_12">
             <div class="box_4">
-              Tugas Pokok
-              <p>
-                Melaksanakan sebagian urusan pemerintahan daerah di bidang kesehatan berdasarkan asas otonomi dan pembantuan<br>
-              </p>
+              <p class="bol">Tugas Pokok</p>
+              <p>Melaksanakan sebagian urusan pemerintahan daerah di bidang kesehatan berdasarkan asas otonomi dan pembantuan.</p>
               <br>
-              Fungsi
+
+              <p class="bol">Fungsi</p>
               <ol class="vm">
                   <li>Melaksanakan tugas teknis operasional di bidang kesehatan yang meliputi pengembangan dan pembinaan pelayanan kesehatan, pencegahan pemberantasan penyakit menular dan penyehatan lingkungan, kesehatan keluarga, pelayanan kefarmasian dan pengawasan makanan dan minuman serta pembinaan program berdasarkan kebijakan walikota Bandung.</li>
                   <li>Pelaksanan tugas teknis fungsional di bidang kesehatan berdasarkan kebijakan Gubernur Propinsi Jawa Barat.</li>
                   <li>Pelaksanaan pelayanan teknis administrasi ketatausahaan yang meliputi kepegawaian, keuangan, umum dan perlengkapan.</li>
-
               </ol>
 
                 </p>

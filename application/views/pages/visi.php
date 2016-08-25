@@ -7,19 +7,17 @@
         <h2 class="header_2 indent_1">VISI dan MISI</h2>
         <div class="grid_12">
             <div class="box_4">
-             VISI <br> <br>
+              <p class="bol">VISI</p>
+                <p>“Mewujudkan Bandung Kota Sehat yang Mandiri dan Berkeadilan”.</p>
+                  <br>
 
-            “Mewujudkan Bandung Kota Sehat yang Mandiri dan Berkeadilan” <br>
-            <br>
-            MISI<br> <br>
-            <ol class="vm">
-            Untuk mencapai masyarakat yang sehat, cerdas dan mandiri ditempuh melalui misi sebagai berikut:<br>
-
-          <li>Meningkatkan pelayanan kesehatan masyarakat yang paripurna, merata bermutu, dan terjangkau</li>
-          <li>Mewujudkan pembangunan berwawasan kesehatan dan menggerakkan masyarakat berperilaku hidup sehat</li>
-          <li>Meningkatkan tata kelola manajemen pembangunan kesehatan</li>
-
-        </ol>
+              <p class="bol">MISI</p>
+                <ol class="vm">
+                  <p>Untuk mencapai masyarakat yang sehat, cerdas dan mandiri ditempuh melalui misi sebagai berikut:</p>
+                    <li>Meningkatkan pelayanan kesehatan masyarakat yang paripurna, merata bermutu, dan terjangkau</li>
+                    <li>Mewujudkan pembangunan berwawasan kesehatan dan menggerakkan masyarakat berperilaku hidup sehat</li>
+                    <li>Meningkatkan tata kelola manajemen pembangunan kesehatan</li>
+                </ol>
             </div>
         </div>
 

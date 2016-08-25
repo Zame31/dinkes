@@ -8,11 +8,12 @@
         <div class="grid_12">
             <div class="box_4">
                 <p class="text_5">
-                  Perda KTR/KTM:
-      KAWASAN TANPA ROKOK DAN KAWASAN TERBATAS MEROKOK
+                  <p>Perda KTR/KTM:</p>
+                <p><a href="#">KAWASAN TANPA ROKOK DAN KAWASAN TERBATAS MEROKOK</a></p>
+                <br>
 
-      Perda mengenai kesehatan lainnya:
-      Peraturan Daerah Mengenai Kesehatan
+                <p>Perda mengenai kesehatan lainnya:</p>
+                <p><a href="#">Peraturan Daerah Mengenai Kesehatan</a></p>
             </p>
             </div>
         </div>

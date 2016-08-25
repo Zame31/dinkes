@@ -2153,7 +2153,7 @@ i.fa.fa-chevron-right {
 
 
 ol.sej li {
-  list-style:circle;
+  list-style:disc;;
   margin-left: 20px;
 }
 
@@ -2188,4 +2188,8 @@ i.fai {
     background: #3498db;
     color: #fff;
     padding: 10px 30px;
+}
+
+.bol{
+  font-weight: bold;
 }
