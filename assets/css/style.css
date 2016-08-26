@@ -2193,3 +2193,41 @@ i.fai {
 .bol{
   font-weight: bold;
 }
+
+.tpus th  {
+
+    padding: 8px;
+    border-collapse: collapse;
+    background-color: #3D7555;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.ganjil {
+    border: 1px ;
+    padding: 8px;
+    border-collapse: collapse;
+    background-color:#e8f5e9 ;
+    text-align: center;
+
+}
+
+.genap  {
+
+    padding: 8px;
+    border-collapse: collapse;
+    background-color:  #c8e6c9;
+    text-align: center;
+
+}
+
+.tpus td  {
+
+    padding: 8px;
+    border-collapse: collapse;
+}
+
+.dpus{
+  font-size: 14px;
+}

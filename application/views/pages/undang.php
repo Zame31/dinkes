@@ -4,7 +4,7 @@
 <section id="content"><div class="ic">More Website Templates @ TemplateMonster.com - September08, 2014!</div>
 <div class="container">
     <div class="row wrap_11 wrap_12">
-        <h2 class="header_2 indent_1">Undang-UNdang</h2>
+        <h2 class="header_2 indent_1">Undang-Undang</h2>
         <div class="grid_12">
             <div class="box_4">
                 <p class="text_5">

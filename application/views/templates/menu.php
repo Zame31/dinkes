@@ -49,7 +49,7 @@
                           <li><a href="contacts.html">UPT Dinas</a>
                               <ul>
                                 <li><a href="#">laboratorium kesehatan</a></li>
-                                <li><a href="#">Puskesmas</a>
+                                <li><a href="<?php echo site_url('page/puskesmas'); ?>">Puskesmas</a>
                                 <li><a href="#">yankes mobilitas</a>
 
                                 </li>
