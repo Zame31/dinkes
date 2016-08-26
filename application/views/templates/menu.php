@@ -5,7 +5,7 @@
               <div class="grid_12">
                   <div class="brand put-left">
                       <h1>
-                          <a href="index.html">
+                          <a href="<?php echo site_url('page/beranda'); ?>">
                               <img src="<?php echo base_url() ?>assets/images/logo.png" alt="Logo"/>
                           </a>
                           <span>dinas kesehatan kota bandung</span>
@@ -37,25 +37,28 @@
                               </ul>
                           </li>
                           <li><a href="#">Informasi Publik</a></li>
-                          <li><a href="#">Regulasi</a>
+                          <li class="<?php if($this->uri->uri_string() == ('page/undang') ||
+                                                          uri_string() == ('page/permenkes') ||
+                                                          uri_string() == ('page/perda') ||
+                                                          uri_string() == ('page/perwali') ) { echo 'current'; } ?>"><a href="#">Regulasi</a>
                               <ul>
-                                <li><a href="<?php echo site_url('page/undang'); ?>">Undang undang</a></li>
-                                <li><a href="<?php echo site_url('page/permenkes'); ?>">Permenkes</a>
-                                <li><a href="<?php echo site_url('page/perda'); ?>">Perda</a>
-                                <li><a href="<?php echo site_url('page/perwali'); ?>">Perwali</a>
+                                <li class="<?php if($this->uri->uri_string() == 'page/undang') { echo 'current'; } ?>"><a href="<?php echo site_url('page/undang'); ?>">Undang undang</a></li>
+                                <li class="<?php if($this->uri->uri_string() == 'page/permenkes') { echo 'current'; } ?>"><a href="<?php echo site_url('page/permenkes'); ?>">Permenkes</a>
+                                <li class="<?php if($this->uri->uri_string() == 'page/perda') { echo 'current'; } ?>"><a href="<?php echo site_url('page/perda'); ?>">Perda</a>
+                                <li class="<?php if($this->uri->uri_string() == 'page/perwali') { echo 'current'; } ?>"><a href="<?php echo site_url('page/perwali'); ?>">Perwali</a>
                                 </li>
                             </ul>
                           </li>
                           <li><a href="contacts.html">UPT Dinas</a>
                               <ul>
                                 <li><a href="#">laboratorium kesehatan</a></li>
-                                <li><a href="<?php echo site_url('page/puskesmas'); ?>">Puskesmas</a>
+                                <li class="<?php if($this->uri->uri_string() == 'page/puskesmas') { echo 'current'; } ?>"><a href="<?php echo site_url('page/puskesmas'); ?>">Puskesmas</a>
                                 <li><a href="#">yankes mobilitas</a>
 
                                 </li>
                             </ul>
                           </li>
-                          <li><a href="<?php echo site_url('page/hubungi'); ?>">Hubungi Kami</a></li>
+                          <li class="<?php if($this->uri->uri_string() == 'page/hubungi') { echo 'current'; } ?>"><a href="<?php echo site_url('page/hubungi'); ?>">Hubungi Kami</a></li>
                       </ul>
                   </nav>
               </div>

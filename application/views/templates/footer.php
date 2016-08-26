@@ -16,16 +16,16 @@
         album foto kegiatan
       </div>
       <div class="galeri">
-        <a href="" class="gambar">
+        <a href="<?php echo site_url('page/album'); ?>" class="gambar">
           <img src="<?php echo base_url() ?>assets/images/gam1.jpg" alt="" />
         </a>
-        <a href="" class="gambar">
+        <a href="<?php echo site_url('page/album'); ?>" class="gambar">
           <img src="<?php echo base_url() ?>assets/images/gam2.jpg" alt="" />
         </a>
-        <a href="" class="gambar">
+        <a href="<?php echo site_url('page/album'); ?>" class="gambar">
           <img src="<?php echo base_url() ?>assets/images/gam3.jpg" alt="" />
         </a>
-        <a href="" class="gambar">
+        <a href="<?php echo site_url('page/album'); ?>" class="gambar">
           <img src="<?php echo base_url() ?>assets/images/gam1.jpg" alt="" />
         </a>
 

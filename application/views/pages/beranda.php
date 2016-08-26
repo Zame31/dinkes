@@ -8,6 +8,7 @@
 			<li data-target="#screenshot-carousel" data-slide-to="0"></li>
 			<li data-target="#screenshot-carousel" data-slide-to="1"></li>
 			<li data-target="#screenshot-carousel" data-slide-to="2"></li>
+			<li data-target="#screenshot-carousel" data-slide-to="3"></li>
 			</ol>
 
 		<div class="carousel-inner">
@@ -15,7 +16,7 @@
 				<img src="<?php echo base_url() ?>assets/images/gam1.jpg" />
 				<div class="carousel-caption">
           <div class="judul">
-            Outlook Energi Indonesia 2016
+            DINAS KESEHATAN KOTA BANDUNG
           </div>
 					<a href="#" class="baca">Baca Selengkapnya</a>
 				</div>
@@ -24,7 +25,7 @@
         <img src="<?php echo base_url() ?>assets/images/gam2.jpg" />
         <div class="carousel-caption">
           <div class="judul">
-            Outlook Energi Indonesia 2016
+            DINAS KESEHATAN KOTA BANDUNG
           </div>
         <a href="#" class="baca">Baca Selengkapnya</a>
         </div>
@@ -33,11 +34,20 @@
         <img src="<?php echo base_url() ?>assets/images/gam3.jpg" />
         <div class="carousel-caption">
           <div class="judul">
-            Outlook Energi Indonesia 2016
+            DINAS KESEHATAN KOTA BANDUNG
           </div>
           <a href="#" class="baca">Baca Selengkapnya</a>
         </div>
       </div>
+			<div class="item">
+				<img src="<?php echo base_url() ?>assets/images/gam3.jpg" />
+				<div class="carousel-caption">
+					<div class="judul">
+						JANG PON
+					</div>
+					<a href="#" class="baca">download</a>
+				</div>
+			</div>
 
 
 		</div>
@@ -60,7 +70,7 @@
 
             <div class="berita">
               <div class="judul-berita">
-                OUTLOOK ENERGI INDONESIA 2015
+                OUTLOOK ENERGI INDONESIA 2015 cobian
               </div>
               <div class="tanggal">
                 23 JUNI 2016
@@ -68,7 +78,7 @@
               <div class="isi">
                 Dalam acara "Pameran dan Konvensi Energi Baru Terbarukan (EBT) dan Geothermal"...
               </div>
-              <a href="#">Selengkapnya</a>
+              <a href="<?php echo site_url('page/lengkap'); ?>">Selengkapnya</a>
             </div>
 
             <div class="berita">
@@ -81,7 +91,7 @@
               <div class="isi">
                 Dalam acara "Pameran dan Konvensi Energi Baru Terbarukan (EBT) dan Geothermal"...
               </div>
-              <a href="#">Selengkapnya</a>
+              <a href="<?php echo site_url('page/lengkap'); ?>">Selengkapnya</a>
             </div>
 
             <div class="berita">
@@ -94,8 +104,32 @@
               <div class="isi">
                 Dalam acara "Pameran dan Konvensi Energi Baru Terbarukan (EBT) dan Geothermal"...
               </div>
-              <a href="#">Selengkapnya</a>
+              <a href="<?php echo site_url('page/lengkap'); ?>">Selengkapnya</a>
             </div>
+						<div class="berita">
+							<div class="judul-berita">
+								OUTLOOK ENERGI INDONESIA 2015
+							</div>
+							<div class="tanggal">
+								23 JUNI 2016
+							</div>
+							<div class="isi">
+								Dalam acara "Pameran dan Konvensi Energi Baru Terbarukan (EBT) dan Geothermal"...
+							</div>
+							<a href="<?php echo site_url('page/lengkap'); ?>">Selengkapnya</a>
+						</div>
+						<div class="berita">
+							<div class="judul-berita">
+								OUTLOOK ENERGI INDONESIA 2015
+							</div>
+							<div class="tanggal">
+								23 JUNI 2016
+							</div>
+							<div class="isi">
+								Dalam acara "Pameran dan Konvensi Energi Baru Terbarukan (EBT) dan Geothermal"...
+							</div>
+							<a href="<?php echo site_url('page/lengkap'); ?>">Selengkapnya</a>
+						</div>
 
           </div>
         </div>
@@ -115,7 +149,7 @@
               <div class="isi">
                 Dalam acara "Pameran dan Konvensi Energi Baru Terbarukan (EBT) dan Geothermal"...
               </div>
-              <a href="#">Selengkapnya</a>
+              <a href="<?php echo site_url('page/lengkap'); ?>">Selengkapnya</a>
             </div>
 
             <div class="berita">
@@ -128,7 +162,7 @@
               <div class="isi">
                 Dalam acara "Pameran dan Konvensi Energi Baru Terbarukan (EBT) dan Geothermal"...
               </div>
-              <a href="#">Selengkapnya</a>
+              <a href="<?php echo site_url('page/lengkap'); ?>">Selengkapnya</a>
             </div>
 
             <div class="berita">
@@ -141,8 +175,32 @@
               <div class="isi">
                 Dalam acara "Pameran dan Konvensi Energi Baru Terbarukan (EBT) dan Geothermal"...
               </div>
-              <a href="#">Selengkapnya</a>
+              <a href="<?php echo site_url('page/lengkap'); ?>">Selengkapnya</a>
             </div>
+						<div class="berita">
+							<div class="judul-berita">
+								outlook energi indonesia 2015
+							</div>
+							<div class="tanggal">
+								23 JUNI 2016
+							</div>
+							<div class="isi">
+								Dalam acara "Pameran dan Konvensi Energi Baru Terbarukan (EBT) dan Geothermal"...
+							</div>
+							<a href="<?php echo site_url('page/lengkap'); ?>">Selengkapnya</a>
+						</div>
+						<div class="berita">
+							<div class="judul-berita">
+								outlook energi indonesia 2015
+							</div>
+							<div class="tanggal">
+								23 JUNI 2016
+							</div>
+							<div class="isi">
+								Dalam acara "Pameran dan Konvensi Energi Baru Terbarukan (EBT) dan Geothermal"...
+							</div>
+							<a href="<?php echo site_url('page/lengkap'); ?>">Selengkapnya</a>
+						</div>
 
           </div>
         </div>
@@ -175,14 +233,7 @@
                   https://portal.bandung.go.id/
                 </div>
               </a>
-              <a href="#" class="link tri">
-                <div class="tit">
-                  WEB GIS
-                </div>
-                <div class="sub-tit">
-                  Aplikasi Web Geographic Information System
-                </div>
-              </a>
+          
 
           </div>
         </div>

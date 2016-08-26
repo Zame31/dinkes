@@ -1925,8 +1925,8 @@ a[data-type='lightbox']:hover img {
     font-family: 'Open Sans', sans-serif;
 }
 .cont-beranda {
+    /* padding-bottom: 5px; */
     padding-top: 20px;
-    min-height: 1000px;
     background: #f9f9f9;
     left: 0;
 }
@@ -1963,6 +1963,7 @@ a[data-type='lightbox']:hover img {
 .berita {
     margin-right: 40px;
     margin-left: 50px;
+    padding-bottom: 30px;
     margin-bottom: 40px;
     border-bottom: 1px solid #efefef;
 }
@@ -1995,9 +1996,9 @@ a[data-type='lightbox']:hover img {
     font-size: 14px;
 }
 .linkwa {
-    padding: 10px 10px 0px;
+    padding: 10px 10px 10px;
     background: #f9f9f9;
-    min-height: 990px;
+    /* min-height: 990px; */
 }
 a.link.one {
     background: #f35151;
@@ -2031,110 +2032,108 @@ a.link:hover {
     line-height: 30px;
 }
 #footer.bg {
-  background: #424242;
-  padding: 40px 0px;
-  margin-top: -40px;
+    background: #424242;
+    padding: 40px 0px;
+    margin-top: -30px;
 }
 #footer .title {
-  text-transform: uppercase;
-  font-size: 16px;
-  font-weight: 600;
-  border-left: 5px solid #129894;
-  padding-left: 10px;
-  display: inline-block;
-  color: #fff;
-  margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    border-left: 5px solid #129894;
+    padding-left: 10px;
+    display: inline-block;
+    color: #fff;
+    margin-bottom: 20px;
 }
 #footer .content a {
-  font-size: 12px;
-  font-weight: 600;
-  display: block;
-  color: #dcdcdc;
-  line-height: 1.5;
-  padding-bottom: 10px;
-  text-decoration: none;
-  padding-top: 10px;
-  border-bottom: 1px solid #4a4a4a;
+    font-size: 12px;
+    font-weight: 600;
+    display: block;
+    color: #dcdcdc;
+    line-height: 1.5;
+    padding-bottom: 10px;
+    text-decoration: none;
+    padding-top: 10px;
+    border-bottom: 1px solid #4a4a4a;
 }
 #footer .content a:hover {
-  color: #7ed6d3;
+    color: #7ed6d3;
 }
-
 #footer .galeri .gambar {
-  width: 100px;
-  display: inline-block;
-  margin-right: 5px;
-  margin-bottom: 5px;
+    width: 100px;
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 5px;
 }
-
 #footer .gambar img {
-  max-width: 100px;
+    max-width: 100px;
 }
 #footer .kontak {
-  color: #ffffff;
+    color: #ffffff;
 }
 #footer .kontak h3 {
-  font-size: 15px;
-  text-transform: uppercase;
-  font-weight: 600;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
 }
 #footer .kontak h4 {
-  font-size: 14px;
-  line-height: 1.5;
+    font-size: 14px;
+    line-height: 1.5;
 }
 #footer .kontak h5 {
-  font-size: 12px;
-  margin-top: 20px;
-  font-weight: 400;
+    font-size: 12px;
+    margin-top: 20px;
+    font-weight: 400;
 }
 .medsos {
-  margin-top: 20px;
+    margin-top: 20px;
 }
-.medsos a{
-  font-size: 24px;
-  text-decoration: none;
-  color: #fff;
-  margin-right: 10px;
-  border: 1px solid #505050;
-  padding: 10px;
+.medsos a {
+    font-size: 24px;
+    text-decoration: none;
+    color: #fff;
+    margin-right: 10px;
+    border: 1px solid #505050;
+    padding: 10px;
 }
 .medsos a:hover {
-  background: #129894;
+    background: #129894;
 }
 .str img {
-  margin-top: 20px;
-  max-width: 1000px;
+    margin-top: 20px;
+    max-width: 1000px;
 }
 ol.tuj li {
-  list-style: decimal;
-  margin-left: 20px;
+    list-style: decimal;
+    margin-left: 20px;
 }
 ol.vm li {
-  list-style: decimal;
-  margin-left: 20px;
+    list-style: decimal;
+    margin-left: 20px;
 }
 .carousel-inner .item img {
     width: 100%;
     max-height: 400px;
 }
 .judul {
-  color: white;
-  font-weight: 500;
-  margin-bottom: 100px;
-  font-size: 40px;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 100px;
+    font-size: 40px;
 }
 a.baca {
-  color: #fff;
-  text-decoration: none;
-  background: #199b97;
-  font-size: 24px;
-  font-weight: 500;
-  padding: 10px 20px;
-  text-shadow: none;
+    color: #fff;
+    text-decoration: none;
+    background: #199b97;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 10px 20px;
+    text-shadow: none;
 }
 a.baca:hover {
-  background: #5d5d5d;
-  color: #ffffff;
+    background: #5d5d5d;
+    color: #ffffff;
 }
 .carousel-caption {
     padding-bottom: 80px;
@@ -2147,55 +2146,102 @@ i.fa.fa-chevron-right {
     margin-top: 160px;
     font-size: 50px;
 }
-#footer.bg2{
-  background: #129894;
+#footer.bg2 {
+    background: #129894;
 }
-
-
 ol.sej li {
-  list-style:disc;;
-  margin-left: 20px;
+    list-style: circle;
+    margin-left: 20px;
 }
-
 .covdinkes img {
-  margin-top: 20px;
-  max-width: 1000px;
-  margin-left: 200px;
-  margin-bottom: 20px;
+    margin-top: 20px;
+    max-width: 1000px;
+    margin-left: 200px;
+    margin-bottom: 20px;
 }
-
 .ket_sej {
-  font-size: 16px;
-  width: 900px;
-
+    font-size: 16px;
+    width: 900px;
 }
-
 i.fai {
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
 }
-
 .tes {
     font-size: 30px;
     background: #1abc9c;
     color: #fff;
     padding: 10px 30px;
 }
-
 .tes1 {
     font-size: 30px;
     background: #3498db;
     color: #fff;
     padding: 10px 30px;
 }
-
-.bol{
-  font-weight: bold;
+.lengkap .judul-berita {
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: 500;
+    margin-bottom: 10px;
 }
-
-.tpus th  {
-
+.lengkap .tanggal {
+    color: #02918d;
+    font-weight: 600;
+    font-size: 12px;
+    display: inline;
+    padding: 2px 10px;
+    border: 2px solid #02918d;
+}
+.lengkap .isi {
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 30px;
+    text-align: justify;
+}
+.lengkap {
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+.berita-lainnya {
+    background: #fdfdfd;
+    margin-top: 60px;
+    padding-top: 10px;
+}
+.berita-lainnya .judul {
+    background: #129894;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 10px 20px;
+    margin: 0;
+}
+.berita-lainnya .berita {
+    margin: 0;
+    margin-left: 20px;
+    padding-bottom: 10px;
+}
+.album img {
+    border: 3px solid #dedede;
+    max-width: 350px;
+    margin-bottom: 40px;
+}
+.album {
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+.album-modal .modal-body {
+    padding: 0;
+}
+.album-modal i.fa.fa-chevron-left, .album-modal i.fa.fa-chevron-right {
+    margin-top: 160px;
+    font-size: 20px;
+}
+.album-modal {
+    padding-top: 150px;
+}
+.tpus th {
     padding: 8px;
     border-collapse: collapse;
     background-color: #3D7555;
@@ -2203,31 +2249,23 @@ i.fai {
     color: #fff;
     text-align: center;
 }
-
 .ganjil {
-    border: 1px ;
+    border: 1px;
     padding: 8px;
     border-collapse: collapse;
-    background-color:#e8f5e9 ;
+    background-color: #e8f5e9;
     text-align: center;
-
 }
-
-.genap  {
-
+.genap {
     padding: 8px;
     border-collapse: collapse;
-    background-color:  #c8e6c9;
+    background-color: #c8e6c9;
     text-align: center;
-
 }
-
-.tpus td  {
-
+.tpus td {
     padding: 8px;
     border-collapse: collapse;
 }
-
-.dpus{
-  font-size: 14px;
+.dpus {
+    font-size: 14px;
 }
