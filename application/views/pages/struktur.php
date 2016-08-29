@@ -13,7 +13,7 @@
                 </p>
 
                 <div class="str">
-                  <img src="<?php echo base_url() ?>assets/images/4-dinkes07.jpg"/>
+                  <img src="<?php echo base_url() ?>assets/images/strukorganisasi.png"/>
                 </div>
 
 

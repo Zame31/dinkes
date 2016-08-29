@@ -2162,6 +2162,7 @@ ol.sej li {
 .ket_sej {
     font-size: 16px;
     width: 900px;
+    text-align: justify;
 }
 i.fai {
     padding-top: 10px;
@@ -2254,13 +2255,13 @@ i.fai {
     padding: 8px;
     border-collapse: collapse;
     background-color: #e8f5e9;
-    text-align: center;
+    text-align: left;
 }
 .genap {
     padding: 8px;
     border-collapse: collapse;
     background-color: #c8e6c9;
-    text-align: center;
+    text-align: left;
 }
 .tpus td {
     padding: 8px;
@@ -2272,5 +2273,25 @@ i.fai {
 
 .dcon{
   font-size: 14px;
-  background-color: #ecfbf7;
+  background-color: #e8f5e9;
+  padding: 20px;
+  margin-top: -20px;
+}
+
+label.name {
+    padding-left: 14px;
+}
+
+.map iframe {
+  border: 0px none;
+  padding-right: 15px;
+  padding-bottom: 54px;
+}
+
+.bol{
+  font-weight: bold;
+}
+
+ol.vm {
+  text-align: justify;
 }

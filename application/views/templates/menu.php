@@ -8,7 +8,7 @@
                           <a href="<?php echo site_url('page/beranda'); ?>">
                               <img src="<?php echo base_url() ?>assets/images/logo.png" alt="Logo"/>
                           </a>
-                          <span>dinas kesehatan kota bandung</span>
+                          <span>Dinas Kesehatan Kota Bandung</span>
                       </h1>
                   </div>
                   <nav class="nav put-right">
@@ -36,16 +36,16 @@
                                 </li>
                               </ul>
                           </li>
-                          <li><a href="#">Informasi Publik</a></li>
+                          <li><a href="http://ppid.bandung.go.id/info/ppid-pembantu/dinas/dinas-kesehatan/">Informasi Publik</a></li>
                           <li class="<?php if($this->uri->uri_string() == ('page/undang') ||
                                                           uri_string() == ('page/permenkes') ||
                                                           uri_string() == ('page/perda') ||
                                                           uri_string() == ('page/perwali') ) { echo 'current'; } ?>"><a href="#">Regulasi</a>
                               <ul>
-                                <li class="<?php if($this->uri->uri_string() == 'page/undang') { echo 'current'; } ?>"><a href="<?php echo site_url('page/undang'); ?>">Undang undang</a></li>
-                                <li class="<?php if($this->uri->uri_string() == 'page/permenkes') { echo 'current'; } ?>"><a href="<?php echo site_url('page/permenkes'); ?>">Permenkes</a>
-                                <li class="<?php if($this->uri->uri_string() == 'page/perda') { echo 'current'; } ?>"><a href="<?php echo site_url('page/perda'); ?>">Perda</a>
-                                <li class="<?php if($this->uri->uri_string() == 'page/perwali') { echo 'current'; } ?>"><a href="<?php echo site_url('page/perwali'); ?>">Perwali</a>
+                                <li class="<?php if($this->uri->uri_string() == 'page/undang') { echo 'current'; } ?>"><a href="http://hukor.kemkes.go.id/hukor/undang-undang">Undang undang</a></li>
+                                <li class="<?php if($this->uri->uri_string() == 'page/permenkes') { echo 'current'; } ?>"><a href="http://hukor.kemkes.go.id/hukor/permenkes">Permenkes</a>
+                                <li class="<?php if($this->uri->uri_string() == 'page/perda') { echo 'current'; } ?>"><a href="http://www.dprd-bandungkota.go.id/perda/perda-tahun-2015/1082-peraturan-daerah-kota-bandung-tahun-2015.html">Perda</a>
+                                <li class="<?php if($this->uri->uri_string() == 'page/perwali') { echo 'current'; } ?>"><a href="http://disdikkota.bandung.go.id/webs/download/perwal-ppdb-2016/">Perwali</a>
                                 </li>
                             </ul>
                           </li>
