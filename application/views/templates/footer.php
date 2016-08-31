@@ -41,9 +41,9 @@
         <h5>Tel : 022-7202210 · (022) 4203752</h5>
       </div>
       <div class="medsos">
-        <a href="#" class="fa fa-twitter"></a>
-        <a href="#" class="fa fa-facebook"></a>
-        <a href="#" class="fa fa-envelope"></a>
+        <a href="https://twitter.com/bandung_dinkes" class="fa fa-twitter"></a>
+        <a href="https://www.facebook.com/pages/Dinas-Kesehatan-Kota-Bandung/211697378979990?fref=ts" class="fa fa-facebook"></a>
+        <a href="mailto:dinkes_kotabandung@yahoo.co.id" class="fa fa-envelope"></a>
       </div>
     </div>
   </div>

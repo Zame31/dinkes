@@ -62,7 +62,7 @@
 	</section>
 <div class="container">
     <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-8">
           <div class="cont-beranda">
             <div class="tit">
               PUBLIKASI
@@ -133,7 +133,8 @@
 
           </div>
         </div>
-        <div class="col-md-4">
+<!--
+				<div class="col-md-4">
           <div class="cont-beranda black">
             <div class="tit">
               Berita
@@ -203,37 +204,75 @@
 						</div>
 
           </div>
-        </div>
-        <div class="col-md-4">
+        </div> -->
+
+				<div class="col-md-4">
           <div class="linkwa">
 
             <div class="linkwa">
 
               <a href="http://www.diskes.jabarprov.go.id/" class="link">
-                <div class="tit">
-                  Dinkes Provinsi Jawa Barat
-                </div>
-                <div class="sub-tit">
-                  http://www.diskes.jabarprov.go.id/
-                </div>
+								<div class="row">
+									<div class="col-md-3">
+										<img src="<?php echo base_url() ?>assets/images/logo2.png" alt="" />
+									</div>
+									<div class="col-md-9">
+										<div class="tit">
+											Dinkes Provinsi Jawa Barat
+										</div>
+										<div class="sub-tit">
+											http://www.diskes.jabarprov.go.id/
+										</div>
+									</div>
+								</div>
               </a>
-              <a href="http://www.depkes.go.id/" class="link one">
-                <div class="tit">
-                  Kementrian Kesehatan Republik Indonesia
-                </div>
-                <div class="sub-tit">
-                  http://www.depkes.go.id/
-                </div>
+							<a href="http://www.depkes.go.id/" class="link one">
+								<div class="row">
+									<div class="col-md-3">
+										<img src="<?php echo base_url() ?>assets/images/logo1.png" alt="" />
+									</div>
+									<div class="col-md-9">
+										<div class="tit">
+											  Kementrian Kesehatan Republik Indonesia
+										</div>
+										<div class="sub-tit">
+											http://www.depkes.go.id/
+										</div>
+									</div>
+								</div>
               </a>
-              <a href="https://portal.bandung.go.id/" class="link two">
-                <div class="tit">
-                  Bandung
-                </div>
-                <div class="sub-tit">
-                  https://portal.bandung.go.id/
-                </div>
+							<a href="https://portal.bandung.go.id/" class="link two">
+								<div class="row">
+									<div class="col-md-3">
+										<img src="<?php echo base_url() ?>assets/images/logo3.png" alt="" />
+									</div>
+									<div class="col-md-9">
+										<div class="tit">
+											Bandung
+										</div>
+										<div class="sub-tit">
+											https://portal.bandung.go.id/
+										</div>
+									</div>
+								</div>
               </a>
-          
+
+							<a href="#" class="link tre">
+								<div class="row">
+									<div class="col-md-3">
+										<img src="<?php echo base_url() ?>assets/images/logo5.png" alt="" />
+									</div>
+									<div class="col-md-9">
+										<div class="tit">
+											 SPGDT 119
+										</div>
+										<div class="sub-tit">
+											 Sistem Penanganan Gawat Darurat Terpadu
+										</div>
+									</div>
+								</div>
+							</a>
+
 
           </div>
         </div>

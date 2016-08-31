@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="<?php echo base_url() ?>assets/css/camera.css"/>
     <link rel="stylesheet" href="<?php echo base_url() ?>assets/css/owl.carousel.css"/>
     <link rel="stylesheet" href="<?php echo base_url() ?>assets/css/contact-form.css"/>
-  
     <script src="<?php echo base_url() ?>assets/js/jquery.js"></script>
     <script src="<?php echo base_url() ?>assets/js/jquery-migrate-1.2.1.js"></script>
     <script src="<?php echo base_url() ?>assets/bootstrap/bootstrap.min.js"></script>
